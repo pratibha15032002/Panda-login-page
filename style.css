@@ -163,7 +163,7 @@ footer{
 
 
 /* 🔥 Full Mobile Responsive Styling */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
 
   body {
     padding: 10px;
@@ -224,7 +224,7 @@ footer{
 }
 
 /* Panda perfect responsive fix */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
 
   .panda-wrap {
     height: 200px;
