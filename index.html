@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panda Login / Sign Up</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Baloo+2:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+  <main class="page">
+    <section class="panel">
+      <div class="panda-wrap" aria-hidden="true">
+        <div class="panda">
+          <div class="ear ear--left"></div>
+          <div class="ear ear--right"></div>
+          <div class="face">
+            <div class="eye eye--left">
+              <div class="eyeball"></div>
+            </div>
+            <div class="eye eye--right">
+              <div class="eyeball"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+          </div>
+          <div class="hand hand--left"></div>
+          <div class="hand hand--right"></div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="switch">
+          <button id="show-login" class="tab active">Login </button>
+          <button id="show-signup" class="tab">Sign Up</button>
+        </div>
+
+        <form id="login-form" class="form active" autocomplete="on">
+          <h2>Welcome</h2>
+          <label class="field">
+            <span>USERNAME</span>
+            <input type="text" id="login-username" placeholder="Enter Username" required />
+          </label>
+          <label class="field">
+            <span>PASSWORD</span>
+            <input type="password" id="login-password" placeholder="Enter Password" required />
+          </label>
+          <button type="submit" class="btn">Login</button>
+          <p class="muted">Don't have an account?<a href="#" id="to-signup">Sign Up</a></p>
+        </form>
+
+        <form id="signup-form" class="form" autocomplete="on">
+          <h2>Create a New Account</h2>
+          <label class="field">
+            <span>FULL NAME</span>
+            <input type="text" id="signup-name" placeholder="Enter your Name" required />
+          </label>
+          <label class="field">
+            <span>EMAIL</span>
+            <input type="email" id="signup-email" placeholder="example@domain.com" required />
+          </label>
+          <label class="field">
+            <span>USERNAME</span>
+            <input type="text" id="signup-username" placeholder="Enter User Name" required />
+          </label>
+          <label class="field">
+            <span>PASSWORD</span>
+            <input type="password" id="signup-password" placeholder="Atleast 6 Character" required />
+          </label>
+          <button type="submit" class="btn">SIGN UP</button>
+          <p class="muted">Already Have an Account<a href="#" id="to-login">Login</a></p>
+        </form>
+      </div>
+
+      
+    </section>
+    <footer style="color: yellow; text-align: center;" class="cred">PRATIBHA DEVELOPER</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
