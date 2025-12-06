@@ -160,3 +160,155 @@ footer{
   font-size: xx-large;
   margin-top: 10px;
 }
+
+
+/* 🔥 Full Mobile Responsive Styling */
+@media (max-width: 480px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .panel {
+    grid-template-columns: 1fr !important;
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .panda {
+    width: 160px;
+    height: 140px;
+  }
+
+  .card {
+    padding: 16px;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .switch {
+    gap: 5px;
+  }
+
+  .tab {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .form h2 {
+    font-size: 18px;
+  }
+
+  .field span {
+    font-size: 12px;
+  }
+
+  .field input {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .muted,
+  .credit {
+    font-size: 11px;
+  }
+
+  footer {
+    font-size: 14px !important;
+  }
+}
+
+/* Panda perfect responsive fix */
+@media (max-width: 480px) {
+
+  .panda-wrap {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .panda {
+    width: 200px !important;
+    height: 175px !important;
+    transform: scale(1) !important;
+  }
+
+  /* Face fix */
+  .face {
+    width: 155px !important;
+    height: 130px !important;
+    left: 22px !important;
+    top: 20px !important;
+  }
+
+  /* Eyes position */
+  .eye {
+    width: 42px !important;
+    height: 42px !important;
+    top: 35px !important;
+  }
+
+  .eye--left {
+    left: 40px !important;
+  }
+
+  .eye--right {
+    right: 40px !important;
+  }
+
+  .eyeball {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Ears fix */
+  .ear {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .ear--left {
+    left: 14px !important;
+  }
+
+  .ear--right {
+    right: 14px !important;
+  }
+
+  /* Nose small */
+  .nose {
+    top: 88px !important;
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Mouth small */
+  .mouth {
+    width: 62px !important;
+    height: 30px !important;
+    top: 100px !important;
+  }
+
+  /* Hands fix – NO over-covering */
+  .hand {
+    width: 40px !important;
+    height: 40px !important;
+    bottom: 0 !important;
+  }
+
+  .hand--left {
+    left: 30px !important;
+  }
+
+  .hand--right {
+    right: 30px !important;
+  }
+}
+
+
